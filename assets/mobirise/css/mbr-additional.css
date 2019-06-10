@@ -2329,11 +2329,11 @@ body {
 .cid-rsJWnYlIhJ {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #7f1933;
+  background-color: #232323;
 }
 .cid-rsJWnYlIhJ .line {
-  background-color: #149dcc;
-  color: #149dcc;
+  background-color: #f9f295;
+  color: #f9f295;
   align: center;
   height: 2px;
   margin: 0 auto;
@@ -2381,8 +2381,8 @@ body {
   margin: 5px 10px;
   line-height: 40px;
   transition: all .2s;
-  color: #ffffff;
-  background: #149dcc;
+  color: #000000;
+  background: #f9f295;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -2946,7 +2946,7 @@ body {
 .cid-rscdsxo9EW {
   padding-top: 75px;
   padding-bottom: 75px;
-  background-color: #cc2952;
+  background-color: #7f1933;
 }
 .cid-rscdsxo9EW .title {
   margin-bottom: 2rem;
@@ -2964,10 +2964,13 @@ body {
 .cid-rscdsxo9EW textarea.form-control {
   min-height: 188px;
 }
+.cid-rscdsxo9EW H2 {
+  color: #f9f295;
+}
 .cid-rstiu0mCBC {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #cc2952;
+  background-color: #7f1933;
 }
 .cid-rstiu0mCBC .mbr-section-subtitle {
   color: #ffffff;
@@ -3008,6 +3011,9 @@ body {
   .cid-rstiu0mCBC .mbr-form .row > * {
     padding: 0 0.5rem;
   }
+}
+.cid-rstiu0mCBC H2 {
+  color: #f9f295;
 }
 .cid-rsKbdooHs5 {
   padding-top: 30px;
