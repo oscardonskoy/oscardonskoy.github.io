@@ -575,8 +575,10 @@ input, select, textarea {
 	}
 
 	strong, b {
-		font-weight: 900;
-		color: inherit;
+    font-weight: 900;
+    color: inherit;
+    font-family: inherit;
+    font: x-large;
 	}
 
 	em, i {
@@ -2055,7 +2057,10 @@ input, select, textarea {
 		}
 
 			.main.dark a {
-				color: inherit;
+    color: #6A6611;
+    font-family: bilbo-swash-caps;
+    font-style: normal;
+    font-weight: 700;
 			}
 
 			.main.dark .button.style2 {
