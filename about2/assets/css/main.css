@@ -1850,7 +1850,8 @@ input, select, textarea {
 		}
 
 			#header h1 a {
-				font-size: 1.25em;
+    font-size: 1.25em;
+    font-family: arial;
 			}
 
 		#header nav {
@@ -2057,7 +2058,7 @@ input, select, textarea {
 		}
 
 			.main.dark a {
-    color: #6A6611;
+    color: #989438;
     font-family: bilbo-swash-caps;
     font-style: normal;
     font-weight: 700;
