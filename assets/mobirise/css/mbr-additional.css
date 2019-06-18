@@ -1,7 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Lobster+Two:400,400i,700,700i);
-@import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i);
+@import url(https://fonts.googleapis.com/css?family=Lobster:400);
 @import url(https://fonts.googleapis.com/css?family=Permanent+Marker:400);
-@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light:400);
+@import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i);
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two:400);
 
 
 
@@ -23,39 +23,39 @@ body {
   line-height: 1.6;
 }
 .display-1 {
-  font-family: 'Lobster Two', display;
+  font-family: 'Lobster', display;
   font-size: 4.25rem;
 }
 .display-1 > .mbr-iconfont {
   font-size: 6.8rem;
 }
 .display-2 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Permanent Marker', handwriting;
   font-size: 3rem;
 }
 .display-2 > .mbr-iconfont {
   font-size: 4.8rem;
 }
 .display-4 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Permanent Marker', handwriting;
   font-size: 1rem;
 }
 .display-4 > .mbr-iconfont {
   font-size: 1.6rem;
 }
 .display-5 {
-  font-family: 'Permanent Marker', handwriting;
+  font-family: 'Rubik', sans-serif;
   font-size: 1.5rem;
 }
 .display-5 > .mbr-iconfont {
   font-size: 2.4rem;
 }
 .display-7 {
-  font-family: 'Shadows Into Light', handwriting;
-  font-size: 1.4rem;
+  font-family: 'Shadows Into Light Two', handwriting;
+  font-size: 1.5rem;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 2.24rem;
+  font-size: 2.4rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -647,14 +647,14 @@ a:hover {
   background-color: #f5f5f5;
   box-shadow: none;
   color: #565656;
-  font-family: 'Shadows Into Light', handwriting;
-  font-size: 1.4rem;
+  font-family: 'Shadows Into Light Two', handwriting;
+  font-size: 1.5rem;
   line-height: 1.43;
   min-height: 3.5em;
   padding: 1.07em .5em;
 }
 .form-control > .mbr-iconfont {
-  font-size: 2.24rem;
+  font-size: 2.4rem;
 }
 .form-control,
 .form-control:focus {
@@ -2967,53 +2967,72 @@ body {
 .cid-rscdsxo9EW H2 {
   color: #f9f295;
 }
-.cid-rstiu0mCBC {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #7f1933;
+.cid-rt36zWU9PM {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #232323;
 }
-.cid-rstiu0mCBC .mbr-section-subtitle {
+.cid-rt36zWU9PM .counter-container {
+  color: #767676;
+}
+.cid-rt36zWU9PM .counter-container ol {
+  margin-bottom: 0;
+  counter-reset: myCounter;
+}
+.cid-rt36zWU9PM .counter-container ol li {
+  margin-bottom: 1rem;
+}
+.cid-rt36zWU9PM .counter-container ol li {
+  list-style: none;
+  padding-left: .5rem;
+}
+.cid-rt36zWU9PM .counter-container ol li:before {
+  position: absolute;
+  left: 0px;
+  margin-top: -10px;
+  counter-increment: myCounter;
+  content: counter(myCounter);
+  display: inline-block;
+  text-align: center;
+  margin: 5px 10px;
+  line-height: 40px;
+  transition: all .2s;
+  color: #000000;
+  background: #f9f295;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.cid-rt36zWU9PM .mbr-text {
   color: #ffffff;
 }
-.cid-rstiu0mCBC .formoid {
-  margin: auto;
+.cid-rt34qkCqHZ {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #232323;
 }
-.cid-rstiu0mCBC .form-control {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+.cid-rt34qkCqHZ .line {
+  background-color: #f9f295;
+  color: #f9f295;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
 }
-.cid-rstiu0mCBC .input-group-btn .btn {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  margin: 0 !important;
+.cid-rt34qkCqHZ .section-text {
+  padding: 2rem 0;
+  color: #ffffff;
+  text-align: left;
 }
-.cid-rstiu0mCBC a:not([href]):not([tabindex]) {
-  color: #fff;
-}
-.cid-rstiu0mCBC a.btn-white:not([href]):not([tabindex]) {
-  color: #333;
+.cid-rt34qkCqHZ .inner-container {
+  margin: 0 auto;
 }
 @media (max-width: 768px) {
-  .cid-rstiu0mCBC .mbr-form .row {
-    -webkit-flex-direction: column;
-    flex-direction: column;
-    -webkit-align-items: center;
-    align-items: center;
-  }
-  .cid-rstiu0mCBC .form-group,
-  .cid-rstiu0mCBC .input-group-btn,
-  .cid-rstiu0mCBC .input-group-btn .btn {
-    max-width: 300px;
-    width: 100%;
+  .cid-rt34qkCqHZ .inner-container {
+    width: 100% !important;
   }
 }
-@media (min-width: 769px) {
-  .cid-rstiu0mCBC .mbr-form .row > * {
-    padding: 0 0.5rem;
-  }
-}
-.cid-rstiu0mCBC H2 {
-  color: #f9f295;
+.cid-rt34qkCqHZ .section-text DIV {
+  text-align: center;
 }
 .cid-rsKbdooHs5 {
   padding-top: 30px;
@@ -4626,6 +4645,34 @@ body {
 .cid-rsgQbAorvZ .nav-link:hover,
 .cid-rsgQbAorvZ .dropdown-item:hover {
   color: #c1c1c1 !important;
+}
+.cid-rt3duecKWv {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #232323;
+}
+.cid-rt3duecKWv .line {
+  background-color: #f9f295;
+  color: #f9f295;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-rt3duecKWv .section-text {
+  padding: 2rem 0;
+  color: #ffffff;
+  text-align: left;
+}
+.cid-rt3duecKWv .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-rt3duecKWv .inner-container {
+    width: 100% !important;
+  }
+}
+.cid-rt3duecKWv .section-text DIV {
+  text-align: center;
 }
 .cid-rswOFnyWLC {
   padding-top: 30px;
