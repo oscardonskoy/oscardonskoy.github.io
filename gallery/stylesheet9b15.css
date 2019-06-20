@@ -473,7 +473,7 @@ font-weight: normal;
 
 /* If laoding icon is displayed */
 .gallery .asset.loading .img {
-  width: 590px;
+  width: 200px;
 
   
     height: 350px;
@@ -522,7 +522,7 @@ font-style: normal;
 /* Title Elements */
 .gallery .asset.title .wrap {
   overflow: auto
-  width: 635px;
+  width: 50px;
 }
 
 
